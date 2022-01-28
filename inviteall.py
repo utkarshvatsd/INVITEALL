@@ -380,9 +380,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await adk(functions.channels.JoinChannelRequest(channel="@Offcial_LegendBot"))
-            await adk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -423,9 +422,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await bdk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await bdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -467,9 +466,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await cdk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await cdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -502,9 +501,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await ddk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
             await ddk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -538,9 +536,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await edk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await edk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
-            await edk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await edk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await edk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -574,9 +572,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 11")
             await vkk.start()
-            await vkk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await vkk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
-            await vkk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await vkk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await vkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -609,9 +607,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 12")
             await kkk.start()
-            await kkk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await kkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await kkk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await kkk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await kkk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -645,9 +643,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 13")
             await lkk.start()
-            await lkk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await lkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await lkk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await lkk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await lkk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -681,9 +679,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 14")
             await mkk.start()
-            await mkk(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await mkk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await mkk(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await mkk(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await mkk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -717,9 +715,9 @@ async def start_yukki():
         try:
             print("Booting Up The Client 15")
             await sid.start()
-            await sid(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await sid(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await sid(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await sid(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await sid(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await sid(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
@@ -754,9 +752,9 @@ async def start_yukki():
             print("Booting Up The Client 16")
             await shy.start()
             botme = await shy.get_me()
-            await shy(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await shy(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await shy(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shy(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await shy(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await shy(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -788,9 +786,9 @@ async def start_yukki():
             print("Booting Up The Client 17")
             await aam.start()
             botme = await aan.get_me()
-            await aan(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await aan(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await aan(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await aan(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await aan(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await aan(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -822,9 +820,9 @@ async def start_yukki():
             print("Booting Up The Client 18")
             await ake.start()
             botme = await ake.get_me()
-            await ake(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await ake(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await ake(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await ake(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await ake(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await ake(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -856,9 +854,9 @@ async def start_yukki():
             print("Booting Up The Client 19")
             await eel.start()
             botme = await eel.get_me()
-            await eel(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await eel(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await eel(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await eel(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await eel(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await eel(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -890,9 +888,9 @@ async def start_yukki():
             print("Booting Up The Client 20")
             await khu.start()
             botme = await khu.get_me()
-            await khu(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await khu(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await khu(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await khu(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await khu(functions.channels.JoinChannelRequest(channel="@Official__LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -924,9 +922,9 @@ async def start_yukki():
             print("Booting Up The Client 21")
             await shi.start()
             botme = await shi.get_me()
-            await shi(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await shi(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await shi(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await shi(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await shi(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await shi(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -958,9 +956,9 @@ async def start_yukki():
             print("Booting Up The Client 22")
             await yaa.start()
             botme = await yaa.get_me()
-            await yaa(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await yaa(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await yaa(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await yaa(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await yaa(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -992,9 +990,9 @@ async def start_yukki():
             print("Booting Up The Client 23")
             await dav.start()
             botme = await dav.get_me()
-            await dav(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await dav(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await dav(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await dav(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await dav(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await dav(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1026,9 +1024,9 @@ async def start_yukki():
             print("Booting Up The Client 24")
             await raj.start()
             botme = await raj.get_me()
-            await raj(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await raj(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await raj(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await raj(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await raj(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await raj(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1060,9 +1058,9 @@ async def start_yukki():
             print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
-            await put(functions.channels.JoinChannelRequest(channel="@Legend_Userbot"))
+            await put(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
             await put(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
-            await put(functions.channels.JoinChannelRequest(channel="@Legend_UserbotSpam"))
+            await put(functions.channels.JoinChannelRequest(channel="@Legend_K_UserbotSpam"))
             await put(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1331,7 +1329,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1344,7 +1342,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\*invitesall"))
@@ -1367,7 +1365,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1380,7 +1378,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1404,7 +1402,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1417,7 +1415,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @hdk.on(events.NewMessage(incoming=True, pattern=r"\+invitesall"))
 async def get_users(event):
@@ -1439,7 +1437,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1452,7 +1450,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 
@@ -1476,7 +1474,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1489,7 +1487,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 @adk.on(events.NewMessage(incoming=True, pattern=r"\×invitesall"))
@@ -1512,7 +1510,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1525,7 +1523,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 @bdk.on(events.NewMessage(incoming=True, pattern=r"\÷invitesall"))
@@ -1548,7 +1546,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1561,7 +1559,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 @cdk.on(events.NewMessage(incoming=True, pattern=r"\=invitesall"))
@@ -1584,7 +1582,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1597,7 +1595,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.invitesall"))
 async def get_users(event):
@@ -1619,7 +1617,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1632,7 +1630,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\*invitesall"))
 async def get_users(event):
@@ -1654,7 +1652,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1667,7 +1665,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @vkk.on(events.NewMessage(incoming=True, pattern=r"\?invitesall"))
 async def get_users(event):
@@ -1689,7 +1687,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1702,7 +1700,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @kkk.on(events.NewMessage(incoming=True, pattern=r"\+invitesall"))
 async def get_users(event):
@@ -1724,7 +1722,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1737,7 +1735,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @lkk.on(events.NewMessage(incoming=True, pattern=r"\-invitesall"))
 async def get_users(event):
@@ -1759,7 +1757,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1772,7 +1770,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @mkk.on(events.NewMessage(incoming=True, pattern=r"\×invitesall"))
 async def get_users(event):
@@ -1794,7 +1792,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1807,7 +1805,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 @sid.on(events.NewMessage(incoming=True, pattern=r"\÷invitesall"))
@@ -1830,7 +1828,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1843,7 +1841,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @shy.on(events.NewMessage(incoming=True, pattern=r"\=invitesall"))
 async def get_users(event):
@@ -1865,7 +1863,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1878,7 +1876,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @aan.on(events.NewMessage(incoming=True, pattern=r"\.invitesall"))
 async def get_users(event):
@@ -1900,7 +1898,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1913,7 +1911,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @ake.on(events.NewMessage(incoming=True, pattern=r"\*invitesall"))
 async def get_users(event):
@@ -1935,7 +1933,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1948,7 +1946,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @eel.on(events.NewMessage(incoming=True, pattern=r"\?invitesall"))
 async def get_users(event):
@@ -1970,7 +1968,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -1983,7 +1981,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @khu.on(events.NewMessage(incoming=True, pattern=r"\+invitesall"))
 async def get_users(event):
@@ -2005,7 +2003,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2018,7 +2016,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @shi.on(events.NewMessage(incoming=True, pattern=r"\-invitesall"))
 async def get_users(event):
@@ -2040,7 +2038,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2053,7 +2051,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @yaa.on(events.NewMessage(incoming=True, pattern=r"\×invitesall"))
 async def get_users(event):
@@ -2075,7 +2073,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2088,7 +2086,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @dav.on(events.NewMessage(incoming=True, pattern=r"\÷invitesall"))
 async def get_users(event):
@@ -2110,7 +2108,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2123,7 +2121,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @raj.on(events.NewMessage(incoming=True, pattern=r"\=invitesall"))
 async def get_users(event):
@@ -2145,7 +2143,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2158,7 +2156,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 @put.on(events.NewMessage(incoming=True, pattern=r"\.invitesall"))
 async def get_users(event):
@@ -2180,7 +2178,7 @@ async def get_users(event):
         error = "None"
 
         await krishna.edit(
-            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_Userbot)**\n\n`🔸Inviting Users.......`"
+            "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
         async for user in event.client.iter_participants(legend.full_chat.id):
             try:
@@ -2193,7 +2191,7 @@ async def get_users(event):
                 error = str(e)
                 f = f + 1
         return await krishna.edit(
-            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
+            f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
 
 

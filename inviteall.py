@@ -12,7 +12,7 @@ from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession 
 from telethon import TelegramClient, events
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import GROUP_USERNAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_ID2, API_ID3, API_ID4, API_ID5, API_ID6, API_ID7, API_ID8, API_ID9, API_ID10, API_ID11, API_ID12, API_ID13, API_ID14, API_ID15, API_ID16, API_ID17, API_ID18, API_ID19, API_ID20, API_ID21, API_ID22, API_ID23, API_ID24, API_ID25, API_HASH, API_HASH2, API_HASH3, API_HASH4, API_HASH5, API_HASH6, API_HASH7, API_HASH8, API_HASH9, API_HASH10, API_HASH11, API_HASH12, API_HASH13, API_HASH14, API_HASH15, API_HASH16, API_HASH17, API_HASH18, API_HASH19, API_HASH20, API_HASH21, API_HASH22, API_HASH23, API_HASH24, API_HASH25, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
+from Config import GROUP_USERNAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_ID2, API_ID3, API_ID4, API_ID5, API_ID6, API_ID7, API_ID8, API_ID9, API_ID10, API_ID11, API_ID12, API_ID13, API_ID14, API_ID15, API_ID16, API_ID17, API_ID18, API_ID19, API_ID20, API_ID21, API_ID22, API_ID23, API_ID24, API_ID25, API_H, API_H2, API_H3, API_H4, API_H5, API_H6, API_H7, API_H8, API_H9, API_H10, API_H11, API_H12, API_H13, API_H14, API_H15, API_H16, API_H17, API_H18, API_H19, API_H20, API_H21, API_H22, API_H23, API_H24, API_H25, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
 import asyncio
 import telethon.utils
 from telethon.tl import functions
@@ -59,31 +59,31 @@ va = API_ID23 or sup
 wa = API_ID24 or sup
 xa = API_ID25 or sup
 
-sap = API_HASH
-ab = API_HASH2 or sap
-bb = API_HASH3 or sap
-cb = API_HASH4 or sap
-db = API_HASH5 or sap
-eb = API_HASH6 or sap
-fb = API_HASH7 or sap
-gb = API_HASH8 or sap
-hb = API_HASH9 or sap
-ib = API_HASH10 or sap
-jb = API_HASH11 or sap
-kb = API_HASH12 or sap
-lb = API_HASH13 or sap
-mb = API_HASH14 or sap
-nb = API_HASH15 or sap
-ob = API_HASH16 or sap
-pb = API_HASH17 or sap
-qb = API_HASH18 or sap
-rb = API_HASH19 or sap
-sb = API_HASH20 or sap
-tb = API_HASH21 or sap
-ub = API_HASH22 or sap
-vb = API_HASH23 or sap
-wb = API_HASH24 or sap
-xb = API_HASH25 or sap
+sap = API_H
+ab = API_H2 or sap
+bb = API_H3 or sap
+cb = API_H4 or sap
+db = API_H5 or sap
+eb = API_H6 or sap
+fb = API_H7 or sap
+gb = API_H8 or sap
+hb = API_H9 or sap
+ib = API_H10 or sap
+jb = API_H11 or sap
+kb = API_H12 or sap
+lb = API_H13 or sap
+mb = API_H14 or sap
+nb = API_H15 or sap
+ob = API_H16 or sap
+pb = API_H17 or sap
+qb = API_H18 or sap
+rb = API_H19 or sap
+sb = API_H20 or sap
+tb = API_H21 or sap
+ub = API_H22 or sap
+vb = API_H23 or sap
+wb = API_H24 or sap
+xb = API_H25 or sap
 
 smex = STRING
 smexx = STRING2

@@ -1077,11 +1077,6 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-def user_full_name(user):
-    names = [user.first_name, user.last_name]
-    names = [i for i in list(names) if i]
-    full_name = " ".join(names)
-    return full_name
 
 
 async def get_chatinfo(event):
@@ -1357,7 +1352,7 @@ async def get_users(event):
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
                 )
             except Exception as e:
-                error = str(e)
+                error = str(e) 
                 f = f + 1
         return await krishna.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
@@ -2213,22 +2208,23 @@ async def get_users(event):
         else:
             text = "processing.."
             krishna = await event.reply(text, parse_mode=None, link_preview=None )
-        aura = await get_chatinfo(event)
+        #aura = await get_chatinfo(event)
         chat = await event.get_chat()
+        aura = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")
         s = 0
         f = 0
         error = "None"
         await krishna.edit("**TerminalStatus**\n\n`Collecting Users.......`")
-        async for user in event.client.iter_participants(aura.full_chat.id):
+        async for user in event.client.iter_participants(aura):
             try:
                 if error.startswith("Too"):
                     return await krishna.edit(
                         f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people"
                     )
                 await event.client(
-                    functions.channels.InviteToChannelRequest(channel=chat, users=[user.id])
+                    functions.channels.InviteToChannelRequest(channel=event.chat_id, users=[user.id])
                 )
                 s = s + 1
                 await krishna.edit(

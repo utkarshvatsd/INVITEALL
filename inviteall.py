@@ -2210,7 +2210,7 @@ async def get_users(event):
             krishna = await event.reply(text, parse_mode=None, link_preview=None )
         #aura = await get_chatinfo(event)
         chat = await event.get_chat()
-        aura = event.pattern_match.group(1)
+        aura = event.text[11:50]
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")
         s = 0

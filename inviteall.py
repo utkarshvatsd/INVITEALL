@@ -2210,7 +2210,7 @@ async def get_users(event):
             krishna = await event.reply(text, parse_mode=None, link_preview=None )
         #aura = await get_chatinfo(event)
         chat = await event.get_chat()
-        aura = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
+        aura = event.pattern_match.group(1)
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")
         s = 0
@@ -2219,12 +2219,14 @@ async def get_users(event):
         await krishna.edit("**TerminalStatus**\n\n`Collecting Users.......`")
         async for user in event.client.iter_participants(aura):
             try:
+                tol = f"@{user.username}"
+                lol = tol.split("`")
                 if error.startswith("Too"):
                     return await krishna.edit(
                         f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people"
                     )
                 await event.client(
-                    functions.channels.InviteToChannelRequest(channel=event.chat_id, users=[user.id])
+                    InviteToChannelRequest(channel=event.chat_id, users=lol)
                 )
                 s = s + 1
                 await krishna.edit(

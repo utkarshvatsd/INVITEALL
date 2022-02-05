@@ -15,7 +15,7 @@
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Group Join... Command: .join <Channel or Group's Username>
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Group Join... Command: .pjoin <priavte Channel or Group's Link>
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Restart ... Command: .restart
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Invitesall ... Command: <Command HANDLER According To String>invitesall  <Group Username >
+## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = inviteall ... Command: <Command HANDLER According To String>inviteall  <Group Username >
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Inviteall ... Command: .inviteall <Grou Username>
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Ping ... Command: .ping
 ## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Leave Group .. Command: .leave <Channel / Chat Id>
@@ -25,8 +25,8 @@
 
 ## DESCRIPTION 
 
-## In INVITEALL & INVITESALL
-## IN WHICH INVITESALL HAVE DIFFERENT COMMAND HANDLER 
+## In INVITEALL & inviteall
+## IN WHICH inviteall HAVE DIFFERENT COMMAND HANDLER 
 ## IF U WANT TO SCRAPE MEMBER FROM GROUP
 ## ALL STRING HAVE DIFFERENT COMMAND
 ## IF STRING1 THEN COMMAND HANDLER IS .

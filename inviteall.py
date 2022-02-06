@@ -1319,7 +1319,8 @@ async def _(event):
                 yup = await conv.get_response()
                 await conv.send_message(event.chat_id, yup.text)
             except YouBlockedUserError:
-                await event.reply("**Error:** \nUnblock @spambot and retry!", parse_mode=None, link_preview=None)
+                await event.client(functions.contacts.UnblockRequest("@spambot"))
+                await event.reply("Done @spambot Unblocked and Now Again Type .limit!", parse_mode=None, link_preview=None)
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))

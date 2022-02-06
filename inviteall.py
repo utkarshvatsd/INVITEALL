@@ -256,7 +256,7 @@ async def start_yukki():
             await  wdk.start()
             await wdk(functions.channels.JoinChannelRequest(channel="@Legend_k_Userbot"))
             await wdk(functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@{grp}"))
+            await wdk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)

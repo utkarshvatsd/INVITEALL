@@ -1317,7 +1317,7 @@ async def _(event):
             try:
                 await conv.send_message("/start")
                 yup = await conv.get_response()
-                await conv.send_message(event.chat_id, yup.text)
+                await event.reply(yup.text)
             except YouBlockedUserError:
                 await event.client(functions.contacts.UnblockRequest("@spambot"))
                 await event.reply("Done @spambot Unblocked and Now Again Type .limit!", parse_mode=None, link_preview=None)

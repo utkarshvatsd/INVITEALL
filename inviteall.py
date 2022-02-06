@@ -1313,15 +1313,13 @@ async def ping(e):
 async def _(event):
     if event.sender_id in SMEX_USERS:
         bot = "@SpamBot"
-        sweetie = event.pattern_match.group(1)
-        if sweetie == "":
-            async with event.client.conversation(bot) as conv:
-                try:
-                    await conv.send_message("/start")
-                    yup = await conv.get_response()
-                    await conv.send_message(event.chat_id, yup.text)
-                except YouBlockedUserError:
-                    await event.reply("**Error:** \nUnblock @spambot and retry!", parse_mode=None, link_preview=None)
+        async with event.client.conversation(bot) as conv:
+            try:
+                await conv.send_message("/start")
+                yup = await conv.get_response()
+                await conv.send_message(event.chat_id, yup.text)
+            except YouBlockedUserError:
+                await event.reply("**Error:** \nUnblock @spambot and retry!", parse_mode=None, link_preview=None)
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))

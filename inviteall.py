@@ -12,6 +12,8 @@ from telethon.network.connection.tcpabridged import ConnectionTcpAbridged
 from telethon.sessions import StringSession 
 from telethon import TelegramClient, events
 from telethon.tl.functions.account import UpdateProfileRequest
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+
 from Config import GROUP_USERNAME, STRING, SUDO, BIO_MESSAGE, API_ID, API_ID2, API_ID3, API_ID4, API_ID5, API_ID6, API_ID7, API_ID8, API_ID9, API_ID10, API_ID11, API_ID12, API_ID13, API_ID14, API_ID15, API_ID16, API_ID17, API_ID18, API_ID19, API_ID20, API_ID21, API_ID22, API_ID23, API_ID24, API_ID25, API_H, API_H2, API_H3, API_H4, API_H5, API_H6, API_H7, API_H8, API_H9, API_H10, API_H11, API_H12, API_H13, API_H14, API_H15, API_H16, API_H17, API_H18, API_H19, API_H20, API_H21, API_H22, API_H23, API_H24, API_H25, STRING2, STRING3, STRING4 ,STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 
 import asyncio
 import telethon.utils
@@ -1274,7 +1276,6 @@ async def _(e):
 @dav.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
-
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
@@ -1284,7 +1285,102 @@ async def ping(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"PING PONG!\n`{ms}` 𝗺𝘀")
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.limit"))
+async def _(event):
+    if e.sender_id in SMEX_USERS:
+        bot = "@SpamBot"
+        sweetie = event.pattern_match.group(1)
+        if sweetie == "":
+            async with event.client.conversation(bot) as conv:
+                try:
+                    await conv.send_message("/start")
+                    yup = await conv.get_response()
+                    await conv.send_message(event.chat_id, yup.text)
+                except YouBlockedUserError:
+                    await event.reply("**Error:** \nUnblock @spambot and retry!", parse_mode=None, link_preview=None)
 
+
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
+        await idk.send_message("Hello Sir\nMy Inviteall Command Handler.\nI am client 1, parse_mode=None, link_preview=None )
+        await ydk.send_message("Hello Sir\nMy Inviteall Command Handler*\nI am client 2, parse_mode=None, link_preview=None )
+        await wdk.send_message("Hello Sir\nMy Inviteall Command Handler?\nI am client 3, parse_mode=None, link_preview=None )
+        await hdk.send_message("Hello Sir\nMy Inviteall Command Handler+\nI am client 4, parse_mode=None, link_preview=None )
+        await sdk.send_message("Hello Sir\nMy Inviteall Command Handler-\nI am client 5, parse_mode=None, link_preview=None )
+        await adk.send_message("Hello Sir\nMy Inviteall Command Handler×\nI am client 6, parse_mode=None, link_preview=None )
+        await bdk.send_message("Hello Sir\nMy Inviteall Command Handler÷\nI am client 7, parse_mode=None, link_preview=None )
+        await cdk.send_message("Hello Sir\nMy Inviteall Command Handler=\nI am client 8, parse_mode=None, link_preview=None )
+        await edk.send_message("Hello Sir\nMy Inviteall Command Handler.\nI am client 9, parse_mode=None, link_preview=None )
+        await ddk.send_message("Hello Sir\nMy Inviteall Command Handler*\nI am client 10, parse_mode=None, link_preview=None )
+        await vkk.send_message("Hello Sir\nMy Inviteall Command Handler?\nI am client 11, parse_mode=None, link_preview=None )
+        await kkk.send_message("Hello Sir\nMy Inviteall Command Handler+\nI am client 12, parse_mode=None, link_preview=None )
+        await lkk.send_message("Hello Sir\nMy Inviteall Command Handler-\nI am client 13, parse_mode=None, link_preview=None )
+        await mkk.send_message("Hello Sir\nMy Inviteall Command Handler×\nI am client 14, parse_mode=None, link_preview=None )
+        await sid.send_message("Hello Sir\nMy Inviteall Command Handler÷\nI am client 15, parse_mode=None, link_preview=None )
+        await shy.send_message("Hello Sir\nMy Inviteall Command Handler=\nI am client 16, parse_mode=None, link_preview=None )
+        await aan.send_message("Hello Sir\nMy Inviteall Command Handler.\nI am client 17, parse_mode=None, link_preview=None )
+        await ake.send_message("Hello Sir\nMy Inviteall Command Handler*\nI am client 18, parse_mode=None, link_preview=None )
+        await eel.send_message("Hello Sir\nMy Inviteall Command Handler?\nI am client 19, parse_mode=None, link_preview=None )
+        await khu.send_message("Hello Sir\nMy Inviteall Command Handler+\nI am client 20, parse_mode=None, link_preview=None )
+        await shi.send_message("Hello Sir\nMy Inviteall Command Handler-\nI am client 21, parse_mode=None, link_preview=None )
+        await yaa.send_message("Hello Sir\nMy Inviteall Command Handler×\nI am client 22, parse_mode=None, link_preview=None )
+        await dav.send_message("Hello Sir\nMy Inviteall Command Handler÷\nI am client 23, parse_mode=None, link_preview=None )
+        await raj.send_message("Hello Sir\nMy Inviteall Command Handler=\nI am client 24, parse_mode=None, link_preview=None )
+        await put.send_message("Hello Sir\nMy Inviteall Command Handler.\nI am client 25, parse_mode=None, link_preview=None )
+
+
+
+
+        
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 async def get_users(event):
@@ -1394,6 +1490,7 @@ async def get_users(event):
         return await krishna.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
+
 @hdk.on(events.NewMessage(incoming=True, pattern=r"\+inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS: 
@@ -1749,6 +1846,7 @@ async def get_users(event):
         return await krishna.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
+
 @mkk.on(events.NewMessage(incoming=True, pattern=r"\×inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS: 
@@ -1855,6 +1953,7 @@ async def get_users(event):
         return await krishna.edit(
             f"[τєямנиαℓ ƒιиιѕнє∂](https://t.me/Legend_K_Userbot) \n\n🔸 Sυϲϲєѕѕƒυℓℓγ ιиνιτє∂ `{s}` ρєορℓє \n⚠️ ƒαιℓє∂ το ιиνιτє `{f}` ρєορℓє"
         )
+
 @aan.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS: 

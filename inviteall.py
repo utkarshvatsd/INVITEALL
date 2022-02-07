@@ -383,7 +383,7 @@ async def start_yukki():
             print("Booting Up The Client 6")
             await adk.start()
             await adk(functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot"))
-            await adk(functions.channels.JoinChannelRequest(channel="@Offcial_LegendBot"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Official_LegendBot"))
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)

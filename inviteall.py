@@ -1328,62 +1328,131 @@ async def _(event):
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@vkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@kkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@lkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@mkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@sid.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@shy.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@aan.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@ake.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@eel.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@khu.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@shi.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@yaa.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@dav.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@raj.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
-@put.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         await idk.send_message(e.chat_id, f"Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 1\nMy Name - {idk_m}")
+
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await ydk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ *\nI am client 2")
+
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await wdk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ?\nI am client 3")
+
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await hdk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ +\nI am client 4" )
+
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await sdk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ -\nI am client 5" )
+
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await adk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ×\nI am client 6" )
+
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await bdk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ÷\nI am client 7" )
+
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await cdk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ =\nI am client 8" )
+
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.cmd")) 
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await edk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 9")
+
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await ddk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ *\nI am client 10")
+
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd")) 
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await vkk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ?\nI am client 11")
+
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await kkk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ +\nI am client 12")
+
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await lkk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ -\nI am client 13")
+
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await mkk.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ×\nI am client 14")
+
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await sid.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ÷\nI am client 15")
+
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await shy.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ =\nI am client 16")
+
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await aan.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 17")
+
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await ake.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ *\nI am client 18")
+
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await eel.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ?\nI am client 19")
+
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await khu.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ +\nI am client 20")
+
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await shi.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ -\nI am client 21")
+
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await yaa.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ×\nI am client 22")
+
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await dav.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ ÷\nI am client 23")
+
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await raj.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ =\nI am client 24")
+
+@put.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
+async def ping(e):
+    if e.sender_id in SMEX_USERS:
         await put.send_message(e.chat_id, "Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 25")
 
-
-
-
-        
+       
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 async def get_users(event):

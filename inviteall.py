@@ -1120,7 +1120,7 @@ async def get_chatinfo(event):
 
 
 
-idk_m = f"[idk.me.first_name](tg://user?id=idk.uid)"
+idk_m = f"[{idk.me.first_name}](tg://user?id={idk.uid})"
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))

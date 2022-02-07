@@ -1119,10 +1119,6 @@ async def get_chatinfo(event):
     return chat_info
 
 
-
-idk_m = f"[{idk.me.first_name}](tg://user?id={idk.uid})"
-
-
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
 @wdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
@@ -1330,7 +1326,7 @@ async def _(event):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
 async def ping(e):
     if e.sender_id in SMEX_USERS:
-        await idk.send_message(e.chat_id, f"Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 1\nMy Name - {idk_m}")
+        await idk.send_message(e.chat_id, f"Hello Sir\nMy Inviteall Command Handler ~ .\nI am client 1")
 
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.cmd"))
 async def ping(e):

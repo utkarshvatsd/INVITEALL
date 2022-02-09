@@ -129,127 +129,127 @@
         "required": false
       },
       "API_ID": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": true
       },
       "API_ID2": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID3": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID4": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID5": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID6": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID7": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID8": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID9": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID10": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID11": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID12": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID13": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID14": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID15": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID16": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID17": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID18": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID19": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID20": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false
       },
       "API_ID21": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID22": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID23": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID24": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false 
       },
       "API_ID25": {
-        "description": "Telethon String Session",
+        "description": "Api Id",
         "value": "",
         "required": false
       },
@@ -380,7 +380,7 @@
       },
       "GROUP_USERNAME": {
         "description": "WRITE UR GROUP USERNAME. Id Will Automatically Add to that Group",
-        "value": "@Legend_K_Userbot",
+        "value": "@LB_OffTopic",
         "required": true
       },      
       "SUDO": {

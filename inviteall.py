@@ -2527,7 +2527,7 @@ async def get_users(event):
         )
         async for x in event.client.iter_participants(yukki, aggressive=True):
             try:
-                await raj(InviteToChannelRequest(channel=chat, users=[x.id]))
+                await raj(InviteToChannelRequest(channel=event.chat_id, users=[x.id]))
                 s = s + 1
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"

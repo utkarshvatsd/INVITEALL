@@ -1661,7 +1661,7 @@ async def get_users(event):
         else:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
-        legend = await get_chatinfo(event)
+        await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")
@@ -2514,7 +2514,7 @@ async def get_users(event):
         else:
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
-        legend = await get_chatinfo(event)
+        await get_chatinfo(event)
         chat = await event.get_chat()
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")

@@ -1652,6 +1652,7 @@ async def ping(e):
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
+        yukki = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
         sender = await event.get_sender()
         me = await event.client.get_me()
         if not sender.id == me.id:
@@ -1671,9 +1672,9 @@ async def get_users(event):
         await krishna.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
-        async for user in event.client.iter_participants(legend.full_chat.id):
+        async for x in event.client.iter_participants(yukki, aggressive=True):
             try:
-                await idk(InviteToChannelRequest(channel=chat, users=[user.id]))
+                await idk(InviteToChannelRequest(chat, [x]))
                 s = s + 1
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"
@@ -1689,6 +1690,7 @@ async def get_users(event):
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\*inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
+        yukki = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
         sender = await event.get_sender()
         me = await event.client.get_me()
         if not sender.id == me.id:
@@ -2503,6 +2505,7 @@ async def get_users(event):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\=inviteall"))
 async def get_users(event):
     if event.sender_id in SMEX_USERS:
+        yukki = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 1)
         sender = await event.get_sender()
         me = await event.client.get_me()
         if not sender.id == me.id:
@@ -2522,9 +2525,9 @@ async def get_users(event):
         await krishna.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
-        async for user in event.client.iter_participants(legend.full_chat.id):
+        async for x in event.client.iter_participants(yukki, aggressive=True):
             try:
-                await raj(InviteToChannelRequest(channel=chat, users=[user.id]))
+                await raj(InviteToChannelRequest(chat, [x]))
                 s = s + 1
                 await krishna.edit(
                     f"🤟**Inviting Users👇 **\n\n**⚜Invited :**  `{s}` users \n**🔰Failed to Invite :**  `{f}` users.\n\n**×Error :**  `{error}`"

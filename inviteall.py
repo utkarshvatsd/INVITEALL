@@ -470,7 +470,7 @@ async def start_yukki():
                 functions.channels.JoinChannelRequest(channel="@Legend_K_Userbot")
             )
             await adk(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             await adk(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             botme = await adk.get_me()
@@ -955,7 +955,7 @@ async def start_yukki():
             )
             await eel(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await eel(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1027,7 +1027,7 @@ async def start_yukki():
             )
             await shi(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await shi(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1063,7 +1063,7 @@ async def start_yukki():
             )
             await yaa(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await yaa(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1099,7 +1099,7 @@ async def start_yukki():
             )
             await dav(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await dav(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1135,7 +1135,7 @@ async def start_yukki():
             )
             await raj(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await raj(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -1171,7 +1171,7 @@ async def start_yukki():
             )
             await put(functions.channels.JoinChannelRequest(channel=f"@{grp}"))
             await put(
-                functions.channels.JoinChannelRequest(channel="@Official_LegendBot")
+                functions.channels.JoinChannelRequest(channel="@Official_K_LegendBot ")
             )
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)

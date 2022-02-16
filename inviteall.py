@@ -19,16 +19,7 @@ from telethon.tl.functions.channels import (
     InviteToChannelRequest,
     LeaveChannelRequest,
 )
-
-from telethon.errors import (
-    ChannelInvalidError,
-    ChannelPrivateError,
-    ChannelPublicGroupNaError,
-)
-from telethon.tl import functions
-from telethon.tl.functions.channels import GetFullChannelRequest, InviteToChannelRequest
 from telethon.tl.functions.messages import GetFullChatRequest
-
 
 from Config import (
     API_H,
@@ -1681,7 +1672,9 @@ async def get_users(event):
         await krishna.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
-        async for x in event.client.iter_participants(legend.full_chat.id, aggressive=True):
+        async for x in event.client.iter_participants(
+            legend.full_chat.id, aggressive=True
+        ):
             try:
                 await idk(InviteToChannelRequest(channel=chat, users=[x.id]))
                 s = s + 1
@@ -2534,7 +2527,9 @@ async def get_users(event):
         await krishna.edit(
             "**⚜️[Ͳєямιиαℓ Տτατυѕ](https://t.me/Legend_K_Userbot)**\n\n`🔸Inviting Users.......`"
         )
-        async for x in event.client.iter_participants(legend.full_chat.id, aggressive=True):
+        async for x in event.client.iter_participants(
+            legend.full_chat.id, aggressive=True
+        ):
             try:
                 await raj(InviteToChannelRequest(channel=event.chat_id, users=[x.id]))
                 s = s + 1

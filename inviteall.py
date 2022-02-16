@@ -2515,7 +2515,7 @@ async def get_users(event):
             text = "Processing...."
             krishna = await event.reply(text, parse_mode=None, link_preview=None)
         await get_chatinfo(event)
-        chat = await event.get_chat()
+        await event.get_chat()
         if event.is_private:
             return await krishna.edit("`Sorry, Cant add users here`")
         s = 0

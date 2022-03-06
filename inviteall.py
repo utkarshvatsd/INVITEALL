@@ -257,7 +257,6 @@ async def start_yukki():
             auto_reconnect=True,
             connection_retries=None,
         )
-        # idk = TelegramClient(session_name, sup, sap)
         try:
             print("Booting Up The Client 1")
             await idk.start()
@@ -268,8 +267,8 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            idk = "smex"
             print(e)
+            print("Check String 1")
     else:
         print("Session 1 not Found")
         session_name = "startup"
@@ -300,7 +299,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e) 
     else:
         print("Session 2 not Found")
         session_name = "startup"

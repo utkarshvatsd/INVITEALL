@@ -299,7 +299,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e) 
+            print(e)
     else:
         print("Session 2 not Found")
         session_name = "startup"

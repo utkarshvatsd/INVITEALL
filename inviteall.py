@@ -267,7 +267,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)            
             print("Check String 1")
     else:
         print("Session 1 not Found")
@@ -299,7 +299,8 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)            
+            print("Check String 2")
     else:
         print("Session 2 not Found")
         session_name = "startup"
@@ -331,7 +332,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 3")
     else:
         print("Session 3 not Found")
         session_name = "startup"
@@ -343,7 +344,6 @@ async def start_yukki():
             auto_reconnect=True,
             connection_retries=None,
         )
-        # wdk = TelegramClient(session_name, ba, bb)
         try:
             await wdk.start()
         except Exception:
@@ -360,7 +360,6 @@ async def start_yukki():
             auto_reconnect=True,
             connection_retries=None,
         )
-        # hdk = TelegramClient(StringSession(session_name), ca, cb)
         try:
             print("Booting Up The Client 4")
             await hdk.start()
@@ -371,7 +370,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 4")
     else:
         print("Session 4 not Found")
         session_name = "startup"
@@ -411,7 +410,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 5 not Found")
         session_name = "startup"
@@ -451,7 +450,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 6 not Found")
         session_name = "startup"
@@ -491,7 +490,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 7 not Found")
         session_name = "startup"
@@ -531,7 +530,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 8 not Found")
         session_name = "startup"
@@ -563,7 +562,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 9 not Found")
         session_name = "startup"
@@ -595,7 +594,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 10 not Found")
         session_name = "startup"
@@ -627,7 +626,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 11 not Found")
         session_name = "startup"
@@ -658,7 +657,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 12 not Found")
         session_name = "startup"
@@ -690,7 +689,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 13 not Found")
         session_name = "startup"
@@ -722,7 +721,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 14 not Found")
         session_name = "startup"
@@ -754,7 +753,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 15 not Found")
         session_name = "startup"
@@ -786,7 +785,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 16 not Found")
         session_name = "startup"
@@ -818,7 +817,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 17 not Found")
         session_name = "startup"
@@ -850,7 +849,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 18 not Found")
         session_name = "startup"
@@ -882,7 +881,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 19 not Found")
         session_name = "startup"
@@ -914,7 +913,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 20 not Found")
         session_name = "startup"
@@ -946,7 +945,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 21 not Found")
         session_name = "startup"
@@ -978,7 +977,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 22 not Found")
         session_name = "startup"
@@ -1010,7 +1009,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 23 not Found")
         session_name = "startup"
@@ -1042,7 +1041,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 24 not Found")
         session_name = "startup"
@@ -1074,7 +1073,7 @@ async def start_yukki():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            print(e)
+            print(e)             print("Check String 1")
     else:
         print("Session 25 not Found")
         session_name = "startup"

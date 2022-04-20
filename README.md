@@ -1,56 +1,69 @@
-## Before Use This First Read Description
+# INVITEALL
+<p>
+<h2> This Is INVITEALL Of <a href="https://telegram.me/LegendBot_XD">@LegendBoy_XD</a></h2>
+</p>
 
-------------
-<h3> Dєρℓογ το нєяοκυ </h3>
+------
+# Dєρℓογ το нєяοκυ
 
-- FORK THIS REPO
+- Fork This Repo
 
-- THEN CLICK BELOW BUTTON 
+- Then Click Below Button
 
 - [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+--------
+# 👨‍💻 COMMANDS 👨‍💻
+
+- `.ping` - To Check Ping Of Bots
+
+- `.join <Group/Channel link/username>` - Adds All Bots To That Group/Channel
+
+- `.pjoin <Private Group/Channel link/username>` - Adds All Bots To That Private Group/Channel
+
+- `.restart` - To Restart All Bots
+
+- `.leave <Group/Channel link/username>` - To Leave That Group/Channel
+
+- `.inviteall <handler><inviteall> <group username/link>` - Adds Members From The Mentioned Group To Your Group. If You Don't Know About Handler, Then Refer [Here](https://github.com/LEGEND-AI/INVITEALL/#-command-handler-)
+
+- `.limit` - To Check The Limitations Of All The IDs Through SpamBot
+
+- `.cmd` - To See The Command Handler Of All IDs
 ------------
-## ALL COMMANDS
+# 🗒️ DESCRIPTION 🗒️
 
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Group Join... Command: .join <Channel or Group's Username>
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Group Join... Command: .pjoin <priavte Channel or Group's Link>
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Restart ... Command: .restart
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = inviteall ... Command: <Command HANDLER According To String>inviteall  <Group Username >
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Inviteall ... Command: .inviteall <Grou Username>
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Ping ... Command: .ping
-## 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Leave Group .. Command: .leave <Channel / Chat Id>
+### All INVITEALL Bots Have Different Command Handlers
+### They All Work Individually In Adding Members Because Their Handlers Are Different
+### All Handlers According To String Session Number In Repo Is Given Below
 
+-------
+## ⭐ COMMAND HANDLER ⭐
 
-------------
-
-## DESCRIPTION 
-
-## In INVITEALL & inviteall
-## IN WHICH inviteall HAVE DIFFERENT COMMAND HANDLER 
-## IF U WANT TO SCRAPE MEMBER FROM GROUP
-## ALL STRING HAVE DIFFERENT COMMAND
-## IF STRING1 THEN COMMAND HANDLER IS .
-## IF STRING2 THEN COMMAND HANDLER IS *
-## IF STRING3 THEN COMMAND HANDLER IS ?
-## IF STRING4 THEN COMMAND HANDLER IS +
-## IF STRING5 THEN COMMAND HANDLER IS -
-## IF STRING6 THEN COMMAND HANDLER IS ×
-## IF STRING7 THEN COMMAND HANDLER IS ÷
-## IF STRING8 THEN COMMAND HANDLER IS =
-## IF STRING9 THEN COMMAND HANDLER IS .
-## IF STRING10 THEN COMMAND HANDLER IS *
-## IF STRING11 THEN COMMAND HANDLER IS ?
-## IF STRING12 THEN COMMAND HANDLER IS +
-## IF STRING13 THEN COMMAND HANDLER IS -
-## IF STRING14 THEN COMMAND HANDLER IS ×
-## IF STRING15 THEN COMMAND HANDLER IS ÷
-## IF STRING16 THEN COMMAND HANDLER IS .
-## IF STRING17 THEN COMMAND HANDLER IS *
-## IF STRING18 THEN COMMAND HANDLER IS ?
-## IF STRING19 THEN COMMAND HANDLER IS +
-## IF STRING20 THEN COMMAND HANDLER IS -
-## IF STRING21 THEN COMMAND HANDLER IS ×
-## IF STRING22 THEN COMMAND HANDLER IS ÷
-## IF STRING23 THEN COMMAND HANDLER IS .
-## IF STRING24 THEN COMMAND HANDLER IS *
-## IF STRING25 THEN COMMAND HANDLER IS ?
+STRING | HANDLER
+:--- | :----
+STRING1 | .
+STRING2 | *
+STRING3 | ?
+STRING4 | +
+STRING5 | -
+STRING6 | ×
+STRING7 | ÷
+STRING8 | =
+STRING9 | .
+STRING10 | *
+STRING11 | ?
+STRING12 | +
+STRING13 | -
+STRING14 | ×
+STRING15 | ÷
+STRING16 | .
+STRING17 | *
+STRING18 | ?
+STRING19 | +
+STRING20 | -
+STRING21 | ×
+STRING22 | ÷
+STRING23 | .
+STRING24 | *
+STRING25 | ?
